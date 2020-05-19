@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	
+}
+body {
+	font-size: 15px;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #999;
+	border-radius: 0;
+	border: 2px solid black;
+}
+.navbar-brand {
+	padding: 25px;
+
+}
+.navbar-brand h1 {
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0;
+	font-family: 'Lora', sans-serif;
+	color: black;
+	font-size: 1.55em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.container, .navbar-brand {
+	margin-left: 0px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -42px;
+}
+/* END HEADER */
+
+/* content */ 
+h2 {
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	
+}
+h3 {
+	padding-top: 5px;
+}
+section {
+	border: 0;
+	background-color: #999999;
+    margin: 10px
+}
+p > a:hover, p > a:focus {
+	text-decoration: none;
+}
+
